@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Vetor 2 Ano</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+<script>
+var nome = ["Mário","José","Augusto","Luiz","Eduardo",
+"Felipe","Gabriel","Antonio","Andre","Alessandro","Fernando",
+"Gilberto","Gisele"];
+
+var genero = ["Masculino","Masculino","Masculino","Masculino",
+    "Masculino","Masculino","Masculino","Masculino","Masculino",
+    "Masculino","Masculino", "Masculino","Feminino"
+];
+        let i = 0;
+        document.write("<table border=1>");
+        for(i = 0; i < nome.length; i++){
+        document.write("<tr>");
+                         document.write("<td>");        
+                         document.write("Nome: " + nome[i]);
+                         document.write("</td>");
+        document.write("</tr>");            
+        }
+        document.write("</table>");
+</script>
+
+
+    
+</body>
+</html>

@@ -18,6 +18,23 @@
     turmaComparado = document.localizaLista.TURMA.value; 
             let i = 0;
         document.write("<table border=1>");
+            for(i = 0; i < nome.length; i++){
+
+            if(nome[i] == nomeComparado){
+            document.write("<tr>");    
+               document.write("<td>");
+                    document.write("Nome: " + nome[i]); 
+               document.write("</td>");  
+               
+               document.write("<td>");
+                    document.write("Turma: " + turma[i]); 
+               document.write("</td>");  
+
+            document.write("</tr>");  
+            }    
+
+            }
+
             
         document.write("</table>");    
 
